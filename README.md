@@ -29,6 +29,17 @@ EMAIL_MULTI = [
             ('fifth@example.com', 'password')
         ]
     },
+    {
+        'HOST': 'second_host.com',
+        'PORT': 25,
+        'USE_SSL': False,
+        'USE_TLS': True,
+        'TIMEOUT': 120,
+        'FAIL_SILENTLY': False,
+        'CREDENTIALS': [
+            ('first@second_host.com', 'password'),
+        ]
+    },
 ]
 ```
 
