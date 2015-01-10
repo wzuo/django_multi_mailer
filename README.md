@@ -6,8 +6,8 @@ Written for Django 1.7 and Python 3
 # How to install it?
 
 In settings.py:
-1. Add `'django_multi_mailer'` into INSTALLED_APPS
-2. Set the EMAIL_BACKEND variable to `EMAIL_BACKEND = 'django_multi_mailer.backends.MultiEmailBackend'`
+1. Add ```'django_multi_mailer'``` into INSTALLED_APPS
+2. Set the EMAIL_BACKEND variable to ```EMAIL_BACKEND = 'django_multi_mailer.backends.MultiEmailBackend'```
 3. Set the EMAIL_MULTI variable to
 ```
 EMAIL_MULTI = [
