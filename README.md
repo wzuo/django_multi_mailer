@@ -8,7 +8,9 @@ Written for Django 1.7 and Python 3
 In settings.py:
 
 Add ```'django_multi_mailer'``` into INSTALLED_APPS
+
 Set the EMAIL_BACKEND variable to ```EMAIL_BACKEND = 'django_multi_mailer.backends.MultiEmailBackend'```
+
 Set the EMAIL_MULTI variable to
 ```
 EMAIL_MULTI = [
@@ -29,6 +31,7 @@ EMAIL_MULTI = [
     },
 ]
 ```
+
 That's all, you can now send e-mails using default django send_mail function
     
 # How to send an e-mail?
